@@ -1,0 +1,24 @@
+# Dataset sizes
+NUM_ACCOUNTS = 1000
+NUM_TRANSACTIONS = 5000
+NUM_FRAUD_RINGS = 8
+
+# Fraud ring sizes
+MIN_RING_SIZE = 4
+MAX_RING_SIZE = 8
+
+# Refund settings
+# Refund probability ranges
+NORMAL_REFUND_RANGE = (0.02, 0.08)
+FRAUD_REFUND_RANGE = (0.15, 0.35)
+SNEAKY_REFUND_RANGE = (0.08, 0.18)
+
+# Legitimate shared-household settings
+NUM_SHARED_HOUSEHOLDS = 20
+HOUSEHOLD_SIZE_RANGE = (2, 4)
+
+# Fraud difficulty distribution
+OBVIOUS_RING_COUNT = 3
+MODERATE_RING_COUNT = 2
+SNEAKY_RING_COUNT = 2
+EXPERT_RING_COUNT = 1

@@ -1,0 +1,1 @@
+print("FraudNet setup successful!")
