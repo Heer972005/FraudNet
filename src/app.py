@@ -1197,7 +1197,6 @@ network_fig.update_layout(
     yaxis=dict(visible=False)
 )
 
-st.markdown('<div class="chart-card">', unsafe_allow_html=True)
 
 st.plotly_chart(
     network_fig,
